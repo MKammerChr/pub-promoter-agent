@@ -14,7 +14,7 @@ os.environ["GOOGLE_API_KEY"] = "YOUR_GEMINI_API_KEY_HERE"
 # Define the Gemini LLM
 # We use the LLM class for robust connection to Google
 gemini_llm = LLM(
-    model="gemini/gemini-1.5-flash", 
+    model="gemini/gemini-2.5-flash", 
     api_key=os.environ["GOOGLE_API_KEY"]
 )
 
